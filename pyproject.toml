@@ -1,0 +1,14 @@
+[project]
+name = "My-Health-App"
+version = "0.1.0"
+dependencies = [
+  "langchain"
+  "langchain-groq"
+  "langchain-google-genai",
+  "langgraph",
+  "fastapi",
+  "uvicorn",
+  "faiss-cpu",
+  "openai",
+  "python-dotenv"
+]
